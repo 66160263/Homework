@@ -55,6 +55,58 @@ main p {
     font-size: 1.1rem;
 }
 
+/* ฟอร์มการติดต่อ */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #262626;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #0078d4; /* สีฟ้าสดใส */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #005ba1; /* สีฟ้าเข้มขึ้น */
+}
+
+form button[type="reset"] {
+    background-color: #b61616;
+    color: #ffffff;
+}
+
+form button[type="reset"]:hover {
+    background-color: #8a1818;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
