@@ -7,9 +7,10 @@
 
 /* การจัด Layout */
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #161515;
+    background-color: #bfc9db;
+    font-family: 'Itim', cursive;
 }
 
 header {
