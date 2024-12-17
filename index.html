@@ -33,11 +33,71 @@
             align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
         }
 
-    nav {
+        nav {
             display: flex;
             align-items: center;
             justify-content: center; /* จัดเมนูให้อยู่กึ่งกลาง */
             width: 100%;
+        }
+
+        /* เมนูหลัก */
+        .menu {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+
+        .menu li {
+            margin: 0 15px;
+        }
+
+        .menu li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .menu li a:hover {
+            color: #f4d03f; /* สีเหลือง */
+        }
+
+         /* Hero Section */
+         .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            margin-top: 60px; /* เว้นช่องว่างเฮดเดอร์ */
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #f6c31c;
+            color: rgb(23, 21, 21);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #d78219;
         }
 
          </style>
@@ -52,10 +112,13 @@
             </ul>
         </nav>
     </header>
+    
+    <!-- Hero Section -->
     <main>
-        <section>
-            <h1>ยินดีต้อนรับสู่จังหวัดชลบุรี</h1>
-            <p>ค้นพบสถานที่ท่องเที่ยวและวัฒนธรรมที่น่าสนใจ</p>
+        <section class="hero">
+            <h1>WELCOME TO CHONBURI</h1>
+            <p>พบกับเว็บไซต์แนะนำสถานที่ท่องเที่ยวที่น่าสนใจและบรรยากาศสุดพิเศษ</p>
+            <a href="attractions.html" class="btn">Click</a>
         </section>
     </main>
     <footer>
