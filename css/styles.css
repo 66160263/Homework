@@ -107,6 +107,43 @@ form button[type="reset"]:hover {
     background-color: #8a1818;
 }
 
+/* Card Attraction */
+.attractions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    flex: 1 1 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%; /* ความกว้างเต็มพื้นที่ของการ์ด */
+    height: 200px; /* กำหนดความสูงคงที่ */
+    object-fit: cover; /* ปรับขนาดภาพให้ครอบคลุมโดยไม่ผิดสัดส่วน */
+    border-radius: 10px; /* มุมโค้งมน */
+    margin-bottom: 15px;
+    border: 3px solid #C7C7BB; /* เส้นขอบ */
+}
+
+.card p {
+    color: #333333;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
 footer {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
