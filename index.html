@@ -6,10 +6,40 @@
     <title>ชลบุรี - สถานที่ท่องเที่ยว</title>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: "Itim", cursive;
             line-height: 1.6;
         }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+
+        /* จัดข้อความให้อยู่ตรงกลาง */
+            display: flex;
+            justify-content: space-between; /* จัดให้อยู่กึ่งกลางแนวนอน */
+            align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+        }
+
+    nav {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* จัดเมนูให้อยู่กึ่งกลาง */
+            width: 100%;
+        }
+
          </style>
 </head>
 <body>
