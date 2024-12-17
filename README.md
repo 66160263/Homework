@@ -42,7 +42,4 @@ Git commit -m “add card”
 Git add .
 Git commit -m “fix attractions”
 Git add .
-
-Git add .
-
-Git add .
+Git commit -m “readme”
